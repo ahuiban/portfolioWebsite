@@ -15,19 +15,38 @@
       crossorigin="anonymous"
     />
 
+    <!-- referenced the srtyle CSS file -->
+
+    <link rel="stylesheet" href="css/style.css" />
+
     <!-- jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
-
-  <div id="slides">
-    <div class="slides-container">
-      <img src="img/slide1.jpg" alt="" />
-      <img src="img/slide2.jpg" alt="" />
-      <img src="img/slide3.jpg" alt="" />
-    </div>
-  </div>
-
   <body>
+    <!-- the slide images -->
+    <div id="slides">
+      <div class="overlay"></div>
+
+      <div class="slides-container">
+        <img src="img/slide1.jpg" alt="" />
+        <img src="img/slide2.jpg" alt="" />
+        <img src="img/slide3.jpg" alt="" />
+      </div>
+
+      <div class="titleMessage">
+        <div class="heading">
+          <p class="main">Andrei Huiban</p>
+          <p class="sub">Software Engineer</p>
+        </div>
+      </div>
+
+      <!-- the buttons -->
+      <nav class="slides-navigation">
+        <a href="#" class="next"></a>
+        <a href="#" class="prev"></a>
+      </nav>
+    </div>
+
     <!-- Superslides Javascript -->
     <script src="javascript/jquery.superslides.js"></script>
     <!-- Bootstrap Javascript -->
