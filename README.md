@@ -2,4 +2,4 @@
 
 Personal Portofolio Website
 
-Responsive portfolio website using HTML, CSS, Javascript / jQuery
+Responsive portfolio website using HTML, CSS, Javascript / jQuery | Bootstrap
